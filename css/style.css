@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&family=Roboto:wght@300;400;500;700;900&display=swap");
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Quicksand", sans-serif;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 14px;
+}
+h6 span {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.btn {
+  background: #010046;
+  color: #fff;
+  border-radius: 23px;
+  padding: 5px 15px;
+}
+
+.fb {
+  color: #4064AC;
+}
+
+.ln {
+  color: #0076B3;
+}
+
+.insta {
+  color: #E04E4D;
+}
+
+.card {
+  background: #fff;
+  border-radius: 20px;
+  -webkit-box-shadow: 8px 8px 8px rgb(142, 142, 142);
+          box-shadow: 8px 8px 8px rgb(142, 142, 142);
+  border-style: none;
+  padding-bottom: 20px;
+}
+
+.card .img-box {
+  height: 150px;
+  margin: 15px;
+}
+
+.card .img-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 35px;
+}
+
+.about {
+  margin-bottom: 100px;
+  padding-top: 80px;
+}
+.about .about-left {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+.about .about-left .about-img {
+  width: 600px;
+  height: 450px;
+  left: 80px;
+  position: absolute;
+  z-index: 2;
+}
+.about .about-left .about-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+}
+.about .about-left .box1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #C92028;
+  position: absolute;
+  top: 365px;
+  z-index: 1;
+}
+.about .about-right {
+  width: 500px;
+  height: 500px;
+  position: relative;
+  top: -35px;
+  right: -100px;
+}
+.about .about-right .about-us {
+  background: #fff;
+  border-radius: 30px;
+  width: 600px;
+  height: 450px;
+  -webkit-box-shadow: 8px 8px 8px rgb(142, 142, 142);
+          box-shadow: 8px 8px 8px rgb(142, 142, 142);
+  position: absolute;
+  top: 100px;
+  z-index: 2;
+  line-height: 30px;
+}
+.about .about-right .box2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #C92028;
+  position: absolute;
+  left: 520px;
+  top: 30;
+  z-index: 1;
+}
+
+@media (max-width: 1449px) {
+  .about-box {
+    display: none;
+  }
+}
+@media (min-width: 1450px) {
+  .about-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+.experience .Ebox1, .blogs .Ebox1 {
+  border: 1px solid gray;
+}
+.experience img, .blogs img {
+  width: 100%;
+  height: 100%;
+}
+
+.Find-country {
+  background: #C92028;
+  color: #fff;
+}
+.Find-country .btn2 {
+  color: #C92028;
+  background: #fff;
+  border-radius: 23px;
+  padding: 10px 25px;
+}
+
+.guiding .shield {
+  font-size: 70px;
+}
+
+.testimonial .arrow {
+  color: #C92028;
+}
+.testimonial .test-user {
+  font-size: 60px;
+}
+
+.contact .contact-det {
+  background-color: rgb(233, 230, 230);
+}
+.contact form input {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  background: transparent;
+  padding: 20px 240px 10px 4px;
+}
+.contact form textarea {
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
+  background: transparent;
+  padding: 20px 240px 10px 4px;
+}
+
+footer {
+  background: rgb(245, 233, 233);
+}
+footer .location {
+  font-size: 50px;
+  color: #C92028;
+}
+footer li {
+  font-size: 17px;
+  margin-top: 12px;
+}
+footer li a {
+  color: #000;
+}/*# sourceMappingURL=style.css.map */
+
